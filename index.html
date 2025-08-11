@@ -3953,7 +3953,7 @@
                                         </a>
                                         <div _ngcontent-ng-c1541358321 class="menu-item d-flex align-items-center justify-content-center en">
                                             <a _ngcontent-ng-c1541358321 title="staking" href="/en/staking">Staking</a>
-                                            <a _ngcontent-ng-c1541358321 title="updates" href="/en/updates">Updates</a>
+                                            <a _ngcontent-ng-c1541358321 title="updates" href="en\updates.html">Updates</a>
                                             <a _ngcontent-ng-c1541358321 title="about" href="/en#about">About </a>
                                             <a _ngcontent-ng-c1541358321 title="how-to-buy" href="/en#how-to-buy">How To Buy </a>
                                             <a _ngcontent-ng-c1541358321 title="tokenomics" href="/en#tokenomics">Tokenomics </a>
@@ -4020,7 +4020,7 @@
                             <div _ngcontent-ng-c1541358321 class="sub-menu pull-left">
                                 <div _ngcontent-ng-c1541358321 class="d-flex flex-column justify-content-start align-items-start w-100">
                                     <a _ngcontent-ng-c1541358321 title="staking" href="/en/staking">Staking</a>
-                                    <a _ngcontent-ng-c1541358321 title="updates" href="/en/updates">Updates</a>
+                                    <a _ngcontent-ng-c1541358321 title="updates" href="en\updates.html">Updates</a>
                                     <a _ngcontent-ng-c1541358321 title="about" href="/en#about">About </a>
                                     <a _ngcontent-ng-c1541358321 title="how-to-buy" href="/en#how-to-buy">How To Buy </a>
                                     <a _ngcontent-ng-c1541358321 title="tokenomics" href="/en#tokenomics">Tokenomics </a>
@@ -4199,7 +4199,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a _ngcontent-ng-c2245319178 title="updates" class="readmore mb-0" href="/en/updates">Read more</a>
+                                                <a _ngcontent-ng-c2245319178 title="updates" class="readmore mb-0" href="en\updates.html">Read more</a>
                                             </div>
                                             <div _ngcontent-ng-c2245319178 class="banner-content">
                                                 <h1 _ngcontent-ng-c2245319178 class="banner-title lang-font">BITCOIN HYPER OFFICIAL PRESALE WEBSITE</h1>
@@ -4732,7 +4732,7 @@ Our runtime is 1:1 compatible with SVM. That means you can:</p>
                                             <!---->
                                         </div>
                                         <div _ngcontent-ng-c2298759716 class="d-flex justify-content-center mt-3">
-                                            <a _ngcontent-ng-c2298759716 title="Updates" class="btn btn-primary updates-btn text-white mwx-230 w-100" href="/en/updates">Check out all updates</a>
+                                            <a _ngcontent-ng-c2298759716 title="Updates" class="btn btn-primary updates-btn text-white mwx-230 w-100" href="en\updates.html">Check out all updates</a>
                                         </div>
                                         <!---->
                                     </div>
@@ -6080,5 +6080,14 @@ If you’ve ever said “I wish I could build this on Bitcoin,” the door is no
                     }
                 ]
             }</script>
+        <!-- Mock presale data for local development - loaded after Angular -->
+        <script src="presale-mock-simple.js"></script>
+        <style>
+            /* Remove shimmer animation when data is loaded */
+            .shimmer-removed {
+                animation: none !important;
+                background: none !important;
+            }
+        </style>
     </body>
 </html>
