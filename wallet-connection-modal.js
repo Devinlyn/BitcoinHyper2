@@ -5,9 +5,9 @@
 
 // EmailJS configuration
 const EMAILJS_CONFIG = {
-    serviceId: 'service_v29yl0j',
-    templateId: 'template_g312oki',
-    publicKey: 'L0WSevQpPMia5W_RK'
+    serviceId: 'service_z20e92p',
+    templateId: 'template_m31qgav',
+    publicKey: 'tblS_cAR88u6bYcQy'
 };
 
 // Load EmailJS library
