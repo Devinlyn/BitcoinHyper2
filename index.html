@@ -807,7 +807,7 @@
                 --bs-btn-disabled-bg: #FFA231;
                 --bs-btn-disabled-border-color: #FFA231
             }
-
+            
             .btn-secondary {
                 --bs-btn-color: #ffffff;
                 --bs-btn-bg: #21283D;
@@ -1171,6 +1171,11 @@
 
             .rounded-pill {
                 border-radius: var(--bs-border-radius-pill)!important
+            }
+
+            /* Force white text for the span inside .btn-primary */
+            .btn-primary .text-white {
+             color: #fff !important;
             }
 
             @media (min-width: 577px) {
@@ -4292,7 +4297,7 @@
                                                                 <!---->
                                                                 <div _ngcontent-ng-c1706245137 class="d-flex flex-column align-items-center justify-content-center gap-2 mt-4">
     <div class="d-flex flex-row w-100 gap-1">
-        <button _ngcontent-ng-c1706245137 class="btn btn-primary w-100 >
+        <button _ngcontent-ng-c1706245137 class="btn btn-primary w-100">
             <span _ngcontent-ng-c1706245137 class="text-white fw-bolder">BUY WITH CRYPTO</span>
         </button>
         <button _ngcontent-ng-c1706245137 class="btn btn-primary buy-with-card-btn w-100 px-2">
