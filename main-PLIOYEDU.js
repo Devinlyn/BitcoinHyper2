@@ -58784,7 +58784,7 @@ var lo = ( () => {
                     purchaseUsdAmount: e === "usdt" ? +r : +(i * d).toFixed(2),
                     ipAddress: "",
                     clickId: h.clickId,
-                    source: h.source,
+                    source: h.source,                        usdAmount: i === "usdt" || i === "usdc" ? +s : +(r * this.tokenomics[this.balanceData.currentStep].tokenUSDT).toFixed(2)
                     hash: o,
                     chainId: a,
                     presaleName: U.presaleName,
@@ -59555,7 +59555,7 @@ request value =`, i),
                         tokenAmountPurchase: r,
                         amountSpent: s,
                         cryptoType: a,
-                        usdAmount: i === "usdt" || i === "usdc" ? +s : ++(r * this.tokenomics[this.balanceData.currentStep].tokenUSDT).toFixed(2)
+                        usdAmount: i === "usdt" || i === "usdc" ? +s : +(r * this.tokenomics[this.balanceData.currentStep].tokenUSDT).toFixed(2)
                     }),
                     this.analyticsService.sendBWData(i, r, s, this.walletAddress, this.swapHash, this.chainId, this.mode, this.balanceData, this.tokenomics[this.balanceData.currentStep]?.tokenUSDT),
                     this.analyticsService.windowDataLayer("swap", "swapSuccessful", 3, 1, 0, i, U.tokenName, s, r, this.walletAddress, this.swapHash, this.balanceData, this.chainId, this.tokenomics[this.balanceData.currentStep]?.tokenUSDT),
