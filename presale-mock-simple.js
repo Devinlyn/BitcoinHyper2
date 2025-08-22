@@ -3,8 +3,8 @@ console.log('Loading presale mock script...');
 
 // Mock data
 const presaleData = {
-    usdRaised:  10255605.87,
-    usdTarget: 10400598.27,
+    usdRaised:  11308264.16,
+    usdTarget: 11362728.99,
     tokenPrice: 0.012625,
     endTime: Date.now() + (24 * 60 * 60 * 1000) + (12 * 60 * 60 * 1000) + (45 * 60 * 1000)
 };
